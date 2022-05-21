@@ -12,3 +12,5 @@ This is a simple definition of a library that can be used to create hash-tables 
 - ```Print()``` : for printing the Hash-Table
 - ```display()``` : for displaying a Hash-Node
 - ```DeleteTable()``` : for deleting a Hash-Table and releasing the container memory
+
+<strong> * Note : The code contains definitions and not implementation! </strong>
