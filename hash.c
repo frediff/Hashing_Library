@@ -68,7 +68,7 @@ int  Delete(char str[],HashTable* table)
     {
         ((table->array)[i].key)[0] = '\0';
         ((table->array)[i].value) = 0;
-        // the below commented lines are an additional optional overhead to improve searching efficiency in future after delettions
+        // the below commented lines are an additional optional overhead to improve searching efficiency in future after deletions
         /*j=1;
         empty = i;
         while(j<table->size)
