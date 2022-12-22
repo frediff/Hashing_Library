@@ -3,7 +3,7 @@ This is a simple definition of a library that can be used to create hash-tables 
 ### Usage :
  > ``` HashNode ``` : It is simply a pair of $\LARGE{ (key, ~ value) }$
  
- > ```Hashtable``` : It is a data structure that stores the HashNodes based on the hashing function : $$ {\LARGE{ \left(  \sum_{i=0}^{len-1} str[i] \cdot 31^i  \right)  \mod size }} $$
+ > ```Hashtable``` : It is a data structure that stores the HashNodes based on the hashing function : $$\LARGE{ \left(  \sum_{i=0}^{len-1} str[i] \cdot 31^i  \right)  \mod size }$$
 
 ### User Methods :
 - ```Delete()``` : for deleting a key
